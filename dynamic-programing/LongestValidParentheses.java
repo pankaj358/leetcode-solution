@@ -8,6 +8,8 @@ public class LongestValidParentheses
   {
     int maxans = 0;
     Stack<Integer> stack = new Stack<>();
+
+    // to avoid empty stack exception
     stack.push(-1);
    
     for(int i = 0; i < str.length(); i++)
