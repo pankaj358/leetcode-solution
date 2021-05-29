@@ -22,4 +22,13 @@ public class HouseRobber
  
    }
 
+  
+   private int rob(int A[], int idx)
+   {
+     if(idx < 0) return 0;
+
+     // rob current home | or do not rob
+     return Math.max(A[idx] + rob(A, idx - 2), rob(A, idx - 1));
+   }
+
 }
