@@ -28,7 +28,7 @@ public class SlidingWindowMaximum
         deque.offer(idx);
         
         if( idx >= k - 1)
-         result[resultIdx] = A[deque.peek()];
+         result[resultIdx++] = A[deque.peek()];
       }
     
       return result;  
