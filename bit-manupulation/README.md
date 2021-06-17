@@ -8,4 +8,5 @@
 
 ### Observations
   - Find unique element while other elements are present in array as even times.
-  - Find unique element while other elements are present in array as odd times. should be greater than 3  
+  - Find unique element while other elements are present in array as odd times. should be greater than 3 
+  - N & (N - 1) tric | to find out the 2's power | Power of 2's always has count as 1
