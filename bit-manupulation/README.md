@@ -5,3 +5,7 @@
   - XOR a number even number of times with itself, the result is 0.
   - Also XOR with 0 is always the number itself.
 
+
+### Observations
+  - Find unique element while other elements are present in array as even times.
+  - Find unique element while other elements are present in array as odd times. should be greater than 3  
