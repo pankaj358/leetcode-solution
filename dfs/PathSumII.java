@@ -18,7 +18,7 @@ public class PathSumII{
      path.add(root.val);
 
      if(root.left == null && root.right == null){
-        if(root.val == targetSum) res.add(path);
+        if(root.val == targetSum) res.add(new ArrayList<>(path));
         return;
      }    
 
