@@ -15,8 +15,8 @@ public class MaximalSquare
       {
         if(mat[row-1][col-1] == 1)
         {
-          mat[row][col] = 1 + Math.min(mat[row-1][col-1], Math.min(mat[row-1][col], mat[row][col-1]));
-          ans = Math.max(ans, mat[row][col]);
+          dp[row][col] = 1 + Math.min(dp[row-1][col-1], Math.min(dp[row-1][col], dp[row][col-1]));
+          ans = Math.max(ans, dp[row][col]);
         } 
       }
     }
