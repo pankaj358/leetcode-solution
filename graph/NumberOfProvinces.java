@@ -11,6 +11,7 @@ public class NumberOfProvinces
         {
           visited[idx] = 1;
           dfs(isConnected, visited, idx);
+          count++;
         }
       }
 
