@@ -6,6 +6,8 @@ public class SourceToTarget
    public List<List<Integer>> sourceToTarget(int[][] graph){
      List<List<Integer>> res = new ArrayList<>();
      List<Integer> path = new ArrayList<>();
+
+     path.add(0);     
      
      dfs(res, 0, path, graph);     
  
